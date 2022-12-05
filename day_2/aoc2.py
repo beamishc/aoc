@@ -19,4 +19,4 @@ def day_2(input):
         score += which + dct[me]
     print(score)
 
-day_2('input.txt')
+day_2('day_2/input.txt')

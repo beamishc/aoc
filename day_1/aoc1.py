@@ -14,6 +14,6 @@ def day_1(textfile):
             counter += 1
     return dct
 
-final = day_1('input.txt')
+final = day_1('day_1/input.txt')
 sorted_final = sorted(final.values())
 print(sum(sorted_final[-3:]))
