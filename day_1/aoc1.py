@@ -6,10 +6,8 @@ def day_1(textfile):
     for row in lines:
         try:
             int(row)
-            if counter in dct.keys():
-                dct[counter]+=int(row)
-            else:
-                dct[counter] = int(row)
+            dct.setdefault(counter, 0)
+            dct[counter] += int(row)
         except:
             counter += 1
     return dct
