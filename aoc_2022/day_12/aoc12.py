@@ -44,7 +44,7 @@ def day_12_1(input):
         map[index] = 'X'
 
     print(map)
-day_12_1('day_12/input.txt')
+day_12_1('aoc_2022/day_12/input.txt')
 
 
 
