@@ -18,6 +18,7 @@ def day_10_1(textfile):
         pipe_grid = np.array(lines)
         ic(pipe_grid)
 
+        viable_pipes = {}
         for i, pipe in np.ndenumerate(pipe_grid):
             if pipe != '.':
                 ic(i, pipe)
